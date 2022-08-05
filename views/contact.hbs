@@ -1,0 +1,47 @@
+<!--<h1>Send me a message:<h1>-->
+<!-- POST form -->
+<form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post">
+    <fieldset>
+        <legend>Send me a message:</legend>
+        <fieldset>
+            <label>Name:
+                <input type="text" name="text_input" size="30" maxlength="100">
+            </label>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <label>Cell Number:
+                <input type="number" name="numerical_input" size="30" maxlength="100">
+            </label>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <label>Email:
+                <input type="email" name="email_input" size="30" maxlength="100">
+            </label>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <p>Service you need:</p>
+            <label>
+                <input type="radio" name="service" value="Design"/>Landscape Design</label>
+            <br/>
+            <br/>
+            <label>
+                <input type="radio" name="service" value="Permit"/>Permit Application</label>
+            <br/>
+            <br/>
+            <label>
+                <input type="radio" name="service" value="Consultation"/>Consultation</label>
+            <br/>
+            <br/>
+            <label for="content">Content:</label>
+                <br/>
+                <br/>
+                <textarea type="text" name="content" rows="10" cols="90"></textarea>
+            <br/>
+            <br/>
+            <input type="submit" value="Submit"/>
+        </fieldset>
+    </fieldset>
+</form>
